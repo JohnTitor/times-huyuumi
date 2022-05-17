@@ -11,13 +11,8 @@ on:
       - closed
       - deleted
       - edited
-      - labeled
       - opened
-      - pinned
       - reopened
-      - transferred
-      - unlabeled
-      - unpinned
 
 jobs:
   sync:
