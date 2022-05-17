@@ -40,9 +40,9 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: 16.x
-          cache: npm
-      - run: npm install
-      - run: npm run export
+          cache: yarn
+      - run: yarn install
+      - run: yarn run export
       - uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
