@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
 
-const siteTitle = "echelon";
+const siteTitle = "Chaos and Creation in the Backyard";
 
 export default function Layout({ children }) {
   return (
@@ -18,7 +18,8 @@ export default function Layout({ children }) {
             </Link>
           </p>
           <p className="desc">
-            The logs of <a href="https://github.com/JohnTitor">@JohnTitor</a>
+            The logs of <a href="https://github.com/JohnTitor">@JohnTitor</a>,
+            a.k.a. #times-huyuumi
           </p>
         </nav>
       </header>
