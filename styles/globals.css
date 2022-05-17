@@ -28,6 +28,11 @@ body {
   word-wrap: break-word;
 }
 
+.desc {
+  font-weight: 400;
+  font-size: 0.87rem;
+}
+
 nav {
   padding: 2rem;
 }

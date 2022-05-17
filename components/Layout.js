@@ -8,6 +8,7 @@ export default function Layout({ children }) {
     <>
       <Head>
         <title>{siteTitle}</title>
+        <link rel="shortcut icon" href="/favicon.ico" />
       </Head>
       <header>
         <nav>
@@ -16,6 +17,7 @@ export default function Layout({ children }) {
               <a>{siteTitle}</a>
             </Link>
           </p>
+          <p class="desc">The logs of <a href="https://github.com/JohnTitor">@JohnTitor</a></p>
         </nav>
       </header>
       <main>{children}</main>
