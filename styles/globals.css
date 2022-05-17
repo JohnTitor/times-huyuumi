@@ -146,7 +146,8 @@ code {
   border-radius: 0.2rem;
   font-family: monospace;
   font-size: 0.8rem;
-  background-color: #eee;
+  background-color: #444;
+  color: #fff;
   padding: 0.2rem 0.4rem;
 }
 
