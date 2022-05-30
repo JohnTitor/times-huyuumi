@@ -9,6 +9,11 @@ export default function Layout({ children }) {
       <Head>
         <title>{siteTitle}</title>
         <link rel="shortcut icon" href="/favicon.ico" />
+        <script
+          defer
+          src="https://static.cloudflareinsights.com/beacon.min.js"
+          data-cf-beacon='{"token": "2d41b9f5437b43638ed04a6d0942ec5a"}'
+        ></script>
       </Head>
       <header>
         <nav>
